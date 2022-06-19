@@ -22,6 +22,9 @@
 - During json encoding:
   - Stripped multibyte UTF-8 chars
   - Stripped zero-width spaces
+- Centinela observations / decisions
+  - contained some non-standard codes
+    - retained non-standard codes using fake type `"NOT-CPT"`
 - Advent observations / decisions
   - array 1
     - retained objects which don't have code and code type
